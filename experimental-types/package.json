@@ -1,0 +1,15 @@
+{
+  "name": "experimental-types",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --experimental-strip-types index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Laughlin",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.7.2"
+  }
+}
